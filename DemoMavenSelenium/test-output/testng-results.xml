@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32366" started-at="2017-09-17T14:19:58Z" finished-at="2017-09-17T14:20:30Z">
+  <suite name="Default suite" duration-ms="44747" started-at="2017-09-17T17:40:14Z" finished-at="2017-09-17T17:40:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32366" started-at="2017-09-17T14:19:58Z" finished-at="2017-09-17T14:20:30Z">
+    <test name="Default test" duration-ms="44747" started-at="2017-09-17T17:40:14Z" finished-at="2017-09-17T17:40:59Z">
       <class name="Sunit2106.DemoMavenSelenium.LoginTC">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Sunit2106.DemoMavenSelenium.LoginTC@1251891]" name="beforeMethod" is-config="true" duration-ms="5080" started-at="2017-09-17T19:49:58Z" finished-at="2017-09-17T19:50:03Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Sunit2106.DemoMavenSelenium.LoginTC@1251891]" name="beforeMethod" is-config="true" duration-ms="4812" started-at="2017-09-17T23:10:14Z" finished-at="2017-09-17T23:10:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Sunit2106.DemoMavenSelenium.LoginTC@1251891]" name="f" duration-ms="27256" started-at="2017-09-17T19:50:03Z" finished-at="2017-09-17T19:50:30Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:Sunit2106.DemoMavenSelenium.LoginTC@1251891]" name="f" duration-ms="39655" started-at="2017-09-17T23:10:19Z" finished-at="2017-09-17T23:10:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Sunit2106.DemoMavenSelenium.LoginTC@1251891]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-09-17T19:50:30Z" finished-at="2017-09-17T19:50:30Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Sunit2106.DemoMavenSelenium.LoginTC@1251891]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-09-17T23:10:59Z" finished-at="2017-09-17T23:10:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
