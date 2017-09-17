@@ -8,6 +8,8 @@ import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
@@ -23,19 +25,19 @@ public class LoginTC {
   @Test
   public void f() throws Exception
   	{
-	  
+	  WebDriverWait wait=new WebDriverWait(driver, 20);
 	  driver.get("https://in.bookmyshow.com");
 	  uimap = new UIMap("src//test//resources//locators.properties");
-	  Thread.sleep(3000);
+	  
 	/*// Click on the Region Button
 				WebElement reg_btn = driver.findElement(uimap.getLocator("Select_Region_Btn"));
 				reg_btn.click();*/
 	// Click on the Mumbai Location
-			WebElement location_bms = driver.findElement(uimap.getLocator("Select_location"));
+			WebElement location_bms = wait.until(ExpectedConditions.visibilityOfElementLocated(uimap.getLocator("Select_location")));
 			location_bms.click();
 	// Click on the No Thabks 
-			Thread.sleep(3000);
-			WebElement alert_btn = driver.findElement(uimap.getLocator("Alert_Btn"));
+			
+			WebElement alert_btn = wait.until(ExpectedConditions.visibilityOfElementLocated(uimap.getLocator("Alert_Btn")));
 			alert_btn.click();
 	// Click on the No Thabks 
 			WebElement movies_link = driver.findElement(uimap.getLocator("Movies_Link"));
