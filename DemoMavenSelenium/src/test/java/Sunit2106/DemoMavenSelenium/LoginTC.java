@@ -49,6 +49,7 @@ public class LoginTC {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(uimap.getLocator("Username_field"))).sendKeys("sunit2106@gmail.com");	
 			driver.findElement(uimap.getLocator("Password_field")).sendKeys("");
 			driver.findElement(uimap.getLocator("SignIn_button")).click();
+			
   	}
   @BeforeMethod
   public void beforeMethod()
