@@ -33,6 +33,13 @@ public class LoginTC {
 	// Click on the Mumbai Location
 			WebElement location_bms = driver.findElement(uimap.getLocator("Select_location"));
 			location_bms.click();
+	// Click on the No Thabks 
+			Thread.sleep(3000);
+			WebElement alert_btn = driver.findElement(uimap.getLocator("Alert_Btn"));
+			alert_btn.click();
+	// Click on the No Thabks 
+			WebElement movies_link = driver.findElement(uimap.getLocator("Movies_Link"));
+			movies_link.click();
   	}
   @BeforeMethod
   public void beforeMethod()
