@@ -33,7 +33,7 @@ public class LoginTC {
 	// Click on the Mumbai Location
 			WebElement location_bms = driver.findElement(uimap.getLocator("Select_location"));
 			location_bms.click();
-	// Click on the No Thabks 
+	// Click on the No Thanks 
 			Thread.sleep(3000);
 			WebElement alert_btn = driver.findElement(uimap.getLocator("Alert_Btn"));
 			alert_btn.click();
