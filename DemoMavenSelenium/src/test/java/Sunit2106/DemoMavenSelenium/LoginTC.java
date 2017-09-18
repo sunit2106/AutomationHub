@@ -20,7 +20,7 @@ public class LoginTC {
 	public UIMap datafile;
 	public String workingDir="src//test//";
 	
-	
+	 
 	
   @Test
   public void f() throws Exception
@@ -29,9 +29,7 @@ public class LoginTC {
 	  driver.get("https://in.bookmyshow.com");
 	  uimap = new UIMap("src//test//resources//locators.properties");
 	  
-	/*// Click on the Region Button
-				WebElement reg_btn = driver.findElement(uimap.getLocator("Select_Region_Btn"));
-				reg_btn.click();*/
+	
 	// Click on the Mumbai Location
 			WebElement location_bms = wait.until(ExpectedConditions.visibilityOfElementLocated(uimap.getLocator("Select_location")));
 			location_bms.click();
