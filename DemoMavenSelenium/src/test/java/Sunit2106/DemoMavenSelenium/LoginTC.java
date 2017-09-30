@@ -1,10 +1,12 @@
+
+
 package Sunit2106.DemoMavenSelenium;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
-
+import Sunit2106.DemoMavenSelenium.UIMap;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -34,10 +36,9 @@ public class LoginTC {
 			WebElement location_bms = wait.until(ExpectedConditions.visibilityOfElementLocated(uimap.getLocator("Select_location")));
 			location_bms.click();
 	// Click on the No Thanks 
-
 			
 			WebElement alert_btn = wait.until(ExpectedConditions.visibilityOfElementLocated(uimap.getLocator("Alert_Btn")));
-			alert_btn.click();		
+			alert_btn.click();
 	// Click on the Movies 
 			WebElement movies_link = driver.findElement(uimap.getLocator("Movies_Link"));
 			movies_link.click();

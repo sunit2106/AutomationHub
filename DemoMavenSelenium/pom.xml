@@ -16,34 +16,52 @@
 
  <dependencies>
  <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
+      		<groupId>junit</groupId>
+      		<artifactId>junit</artifactId>
+      		<version>4.11</version>
+      		<scope>test</scope>
     </dependency>
     
  <dependency>
-  <groupId>org.testng</groupId>
-  <artifactId>testng</artifactId>
-  <version>6.8</version>
-  <scope>test</scope>
+  			<groupId>org.testng</groupId>
+  			<artifactId>testng</artifactId>
+  			<version>6.8</version>
+  			<scope>test</scope>
 </dependency>
 
 <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>3.5.3</version>
+        	<groupId>org.seleniumhq.selenium</groupId>
+       		<artifactId>selenium-java</artifactId>
+       		<version>3.5.3</version>
     </dependency>  
     
 <dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi</artifactId>
-    <version>3.7</version>
+    		<groupId>org.apache.poi</groupId>
+    		<artifactId>poi</artifactId>
+    		<version>3.7</version>
 </dependency>
 <dependency>
-<groupId>org.seleniumhq.selenium</groupId>
-<artifactId>selenium-chrome-driver</artifactId>
-<version>2.50.0</version>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>2.50.0</version>
 </dependency> 
+
+<dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.2</version>
+            <scope>test</scope>
+</dependency>
+<dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>1.2.2</version>
+            <scope>test</scope>
+</dependency>
+<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<version>1.2.5</version>
+</dependency>
 </dependencies>
 </project>

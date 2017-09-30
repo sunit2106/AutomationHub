@@ -6,15 +6,4 @@
       <class name="Sunit2106.DemoMavenSelenium.LoginTC"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="Sunit2106.DemoMavenSelenium.LoginTC">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="f"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- Sunit2106.DemoMavenSelenium.LoginTC -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
