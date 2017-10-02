@@ -31,7 +31,7 @@ public class UIMap {
 		return data;
 	}
  
-	public static By getLocator(String ElementName) throws Exception {
+	public  By getLocator(String ElementName) throws Exception {
 		// Read value using the logical name as Key
 		String locator = properties.getProperty(ElementName);
 		// Split the value which contains locator type and locator value
