@@ -6,6 +6,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
+
+
+import Sunit2106.DemoMavenSelenium.CRUDExcelTestData;
 import Sunit2106.DemoMavenSelenium.UIMap;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
@@ -16,8 +20,11 @@ public class StepDefinition{
 	public WebDriver driver;
 	public UIMap uimap;
 	public UIMap datafile;
+	public CRUDExcelTestData crudObj;
 	public String workingDir="src//test//";
 	WebDriverWait wait;
+	
+	
 	
 	
 	@Given("^Launch Chrome BRowser$")
@@ -56,7 +63,7 @@ public class StepDefinition{
 	}
 
 	@Then("^enter user id and click next$")
-	public void enter_user_id_and_click_next() throws Exception {
+	public void enter_and_click_next() throws Exception {
 		WebElement sign_in_link = driver.findElement(uimap.getLocator("SignIn_Link"));
 		sign_in_link.click();
 		
@@ -66,8 +73,8 @@ public class StepDefinition{
 	}
 
 	@Then("^enter password$")
-	public void enter_password() throws Exception {
-		driver.findElement(uimap.getLocator("Password_field")).sendKeys("151621*/*");
+	public void enter() throws Exception {
+		driver.findElement(uimap.getLocator("Password_field")).sendKeys("151621*/*");	
 	}
 
 	@Then("^click login$")
