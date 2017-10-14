@@ -10,7 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.AfterSuite;
 
 public class Test2 {
-  @Test
+  @Test(groups = { "Regression" })
   public void TCaseNoTwo()
   {
 	  System.out.println("Executing Test Case No 2");

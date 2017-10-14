@@ -1,10 +1,14 @@
 package StepDefinitions;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+
 
 
 
@@ -80,6 +84,36 @@ public class StepDefinition{
 	@Then("^click login$")
 	public void click_login() throws Exception {
 		driver.findElement(uimap.getLocator("SignIn_button")).click();
+	}
+	
+	
+	@Given("^Now SHowing page is open$")
+	public void now_SHowing_page_is_open() throws Exception  {
+	    boolean nowShowingIsPresent=driver.findElements(uimap.getLocator("NowShowingBtn")).size()>0;
+	    if(nowShowingIsPresent)
+	    	System.out.println("Now Showing Movies Page Loaded...");
+	}
+
+	@Then("^Click on Searchbox$")
+	public void click_on_Searchbox() throws Exception  {
+	    driver.findElement(uimap.getLocator("BookMoviesSearchBox")).click();
+	    
+	}
+
+	@Then("^Search for Cinemas$")
+	public void search_for_Cinemas() throws Exception {
+		 driver.findElement(uimap.getLocator("CinemasBtn")).click();
+	}
+
+	@Then("^Click on Mumbai South and Central$")
+	public void click_on_Mumbai_South_and_Central() throws Exception {
+	    driver.findElement(uimap.getLocator("MumbaiSouth&CentralBtn")).click();
+	    	
+	}
+
+	@Then("^Click on Cinemastar$")
+	public void click_on_Cinemastar() throws Exception {
+	   driver.findElement(uimap.getLocator("CinemaStarlink")).click();
 	}
 
 }

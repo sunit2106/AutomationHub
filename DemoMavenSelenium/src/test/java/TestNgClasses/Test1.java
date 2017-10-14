@@ -8,11 +8,21 @@ import org.testng.annotations.AfterSuite;
 
 public class Test1 {
 	
-  @Test
-  	public void TCName() 
+  @Test(groups = { "Regression" })
+  	public void TCNo1() 
   	{
 	  System.out.println("Main Test Annotation");
   	}
+  @Test(groups = { "Regression" })
+	public void TCNo2() 
+	{
+	  System.out.println("Main Test Annotation");
+	}
+  @Test(groups = { "Functional" })
+	public void TCNo3() 
+	{
+	  System.out.println("Main Test Annotation");
+	}
   @BeforeTest
   	public void beforeTest()
   	{

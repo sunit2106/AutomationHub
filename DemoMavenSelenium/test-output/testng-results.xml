@@ -1,66 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Test-Suite" duration-ms="49" started-at="2017-10-07T13:25:39Z" finished-at="2017-10-07T13:25:39Z">
+  <suite name="Test-Suite" duration-ms="29" started-at="2017-10-07T13:31:56Z" finished-at="2017-10-07T13:31:56Z">
     <groups>
+      <group name="Regression">
+        <method signature="Test1.TCNo1()[pri:0, instance:TestNgClasses.Test1@163425a]" name="TCNo1" class="TestNgClasses.Test1"/>
+        <method signature="Test1.TCNo2()[pri:0, instance:TestNgClasses.Test1@163425a]" name="TCNo2" class="TestNgClasses.Test1"/>
+        <method signature="Test2.TCaseNoTwo()[pri:0, instance:TestNgClasses.Test2@11baa65]" name="TCaseNoTwo" class="TestNgClasses.Test2"/>
+      </group> <!-- Regression -->
     </groups>
-    <test name="Test-Sample" duration-ms="49" started-at="2017-10-07T13:25:39Z" finished-at="2017-10-07T13:25:39Z">
+    <test name="Test-Sample" duration-ms="29" started-at="2017-10-07T13:31:56Z" finished-at="2017-10-07T13:31:56Z">
       <class name="TestNgClasses.Test2">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNgClasses.Test2@11baa65]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TCaseNoTwo()[pri:0, instance:TestNgClasses.Test2@11baa65]" name="TCaseNoTwo" duration-ms="1" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
+        <test-method status="PASS" signature="TCaseNoTwo()[pri:0, instance:TestNgClasses.Test2@11baa65]" name="TCaseNoTwo" duration-ms="1" started-at="2017-10-07T19:01:56Z" finished-at="2017-10-07T19:01:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TCaseNoTwo -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNgClasses.Test2@11baa65]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNgClasses.Test2@11baa65]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNgClasses.Test2@11baa65]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- TestNgClasses.Test2 -->
       <class name="TestNgClasses.Test1">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNgClasses.Test1@1ba5a14]" name="beforeSuite" is-config="true" duration-ms="37" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
+        <test-method status="PASS" signature="TCNo1()[pri:0, instance:TestNgClasses.Test1@163425a]" name="TCNo1" duration-ms="10" started-at="2017-10-07T19:01:56Z" finished-at="2017-10-07T19:01:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNgClasses.Test1@1ba5a14]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
+        </test-method> <!-- TCNo1 -->
+        <test-method status="PASS" signature="TCNo2()[pri:0, instance:TestNgClasses.Test1@163425a]" name="TCNo2" duration-ms="1" started-at="2017-10-07T19:01:56Z" finished-at="2017-10-07T19:01:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNgClasses.Test2@11baa65]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TCName()[pri:0, instance:TestNgClasses.Test1@1ba5a14]" name="TCName" duration-ms="7" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TCName -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNgClasses.Test2@11baa65]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNgClasses.Test1@1ba5a14]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNgClasses.Test1@1ba5a14]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNgClasses.Test2@11baa65]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-10-07T18:55:39Z" finished-at="2017-10-07T18:55:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
+        </test-method> <!-- TCNo2 -->
       </class> <!-- TestNgClasses.Test1 -->
     </test> <!-- Test-Sample -->
   </suite> <!-- Test-Suite -->

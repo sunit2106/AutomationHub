@@ -2,7 +2,15 @@
 <suite name="Test-Suite" >
 
  <test name="Test-Sample" >
-
+<groups>
+ 
+	    <run>
+ 
+		<include name="Regression" />
+ 
+	    </run>
+ 
+	</groups>
  <classes> 
  <class name="TestNgClasses.Test1" />
  <class name="TestNgClasses.Test2" />
